@@ -15,7 +15,7 @@
 .m-title-01 p{font-size:18px; background-color:#fff; position: relative; display: inline-block; padding:0 15px; z-index: 2; color:#b6b6b6; margin-top:10px;}
 .m-title-01:after{content:""; display: block; width:412px; height:1px; z-index: 1; background:#cbcbcb; position: absolute; left:50%; margin-left:-206px; bottom:8px;}
 
-
+.text-center{text-align: center;}
 
 
 

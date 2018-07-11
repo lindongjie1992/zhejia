@@ -53,18 +53,17 @@ table {
 html {
     overflow-y: scroll;
 }
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: inline-block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
-}
-.clearfix {
-    *zoom: 1;
-}
-
+.clearfix:before,.clearfix:after {   
+    content:"";   
+    display:table;   
+}   
+.clearfix:after{   
+    clear:both;   
+    overflow:hidden;   
+}   
+.clearfix{   
+    *zoom:1;   
+}  
 /*公共类*/
 .fl {
     float: left
